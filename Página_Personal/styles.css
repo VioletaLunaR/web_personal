@@ -1,0 +1,33 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header
+{
+    background-color:#FFF1ED ;
+}
+
+/* Barra de navegación*/
+nav
+{
+    background-color: #374B73;    
+}
+.nav-link
+{
+    color: #FFF1ED;  
+     
+}
+.nav-link, a
+{
+    visited : #FFF1ED;  
+     
+}
+
+/* Niveles del texto*/
+h1{
+    color: #374B73;
+}
+h2{
+    color: #374B73;
+    text-align: center;
+}
