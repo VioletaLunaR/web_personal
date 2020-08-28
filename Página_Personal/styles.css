@@ -1,5 +1,6 @@
 body{
     font-family: "Snell Roundhand", cursive, "Comic Sans MS", cursive, sans-serif;
+    background-color: #a9c0f133;
 }
 
 header
@@ -12,7 +13,7 @@ nav
 {
     background-color: #374B73;    
 }
-.nav-link
+a, .nav-link
 {
     color: #FFF1ED;  
      
@@ -22,7 +23,27 @@ nav
      color: #FFF1ED;  
      
 }
+.nav-link, a:hover
+{
+     color: #d4bbb3;  
+     
+}
 
+/*  Cards */
+
+.card-title
+{
+    text-align: center;
+}
+.card-img-top
+{
+    justify-content:center;
+}
+
+.card-body
+{
+    background-color:  #ffffff49;;
+}
 
 /* Niveles del texto*/
 h1{
@@ -31,6 +52,7 @@ h1{
 h2{
     color: #374B73;
     text-align: center;
+    background-color: #FFF1ED;
 }
 
 p
@@ -41,4 +63,5 @@ p
 /* Footer*/
 footer{
     background-color: #374B73 ;
+    
 }
