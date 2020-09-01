@@ -1,0 +1,48 @@
+p
+{
+    font-weight: bold;
+    text-align: center;
+
+}
+
+footer
+{
+    display: flex;
+    background-color: rgb(102, 76, 11);
+    color: white;
+    align-items: center;  
+}
+header
+{
+    display: flex;
+    background-color: rgb(102, 76, 11);
+    color: white;
+    align-items: center;
+    height:4rem;
+}
+
+#top-m
+{
+    background-color: rgb(218, 144, 144);
+}
+
+.main-c
+{
+    background-color: ghostwhite;
+    height: 10rem;
+}
+
+.lf-menu
+{
+    background-color: orange;
+
+}
+
+.ph-p
+{
+    background-color: indianred;
+}
+.ph-b   
+{
+    background-color: steelblue;
+}
