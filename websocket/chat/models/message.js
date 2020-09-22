@@ -5,10 +5,19 @@ class Message extends Model { }
 
 Message.init(
     {
-        content: {
+        message: {
             type: DataTypes.STRING,
             allowNull: false,
         },
+        author:{
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        ts:{
+            type: DataTypes.STRING,
+            allowNull: false,
+        }
+
     },
     {
         sequelize,
